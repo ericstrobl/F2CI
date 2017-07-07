@@ -36,7 +36,7 @@ F2CI <- function(suffStat,indepTest,alpha, mix_modeling, max.cs, SK_results=NULL
   rules[5] = FALSE;
 
   OR_results <- OR_discovery2(VS_results$G, suffStat, CI_test, alpha, mix_modeling, VS_results$sepset,
-                              VS_results$count, rules=rules, verbose=TRUE);
+                              VS_results$count, rules=rules, verbose=FALSE);
   ## end orientation rules
 
 
