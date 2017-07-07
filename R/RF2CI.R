@@ -9,7 +9,7 @@
 RF2CI <- function(suffStat,indepTest,alpha, mix_modeling, max.cs, SK_results=NULL){
 
   if (length(SK_results)==0){
-    skel <- skeleton_new(suffStat, indepTest, alpha, p = ncol(suffStat$data), max.cs )
+    skel <- skeleton_new(suffStat, indepTest, alpha, p = ncol(suffStat$data), m.max=max.cs)
 
     SK_results = list();
 
