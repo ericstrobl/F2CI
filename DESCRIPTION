@@ -1,0 +1,12 @@
+Package: F2CI
+Type: Package
+Title: Fast Causal Inference under Non-Statioary Feedback
+Version: 0.1.0
+Author: Eric V. Strobl
+Maintainer: Eric V. Strobl <ericvonstrobl@gmail.com>
+Description: F2CI and RF2CI algorithms
+License: CC BY-NC 4.0
+Encoding: UTF-8
+Depends: pcalg, slam, flexmix, MASS, mvtnorm
+LazyData: true
+RoxygenNote: 5.0.1
