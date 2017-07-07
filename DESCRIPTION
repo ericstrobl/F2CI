@@ -7,6 +7,6 @@ Maintainer: Eric V. Strobl <ericvonstrobl@gmail.com>
 Description: F2CI and RF2CI algorithms
 License: CC BY-NC 4.0
 Encoding: UTF-8
-Depends: pcalg, slam, flexmix, MASS, mvtnorm
+Depends: pcalg, slam, flexmix, MASS, mvtnorm, RCIT
 LazyData: true
 RoxygenNote: 5.0.1
