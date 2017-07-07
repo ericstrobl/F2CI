@@ -20,10 +20,10 @@ This is an R package implementing the F2CI and RF2CI algorithms for causal disco
 
 > suffStat = list(data=data);
 
-> out_F2CI=F2CI(suffStat, indepTest=RCoT_wrap, alpha=0.01, mix_modeling=gauss_mix_modeling, max.cs=4);
+> out_F2CI=F2CI(suffStat, indepTest=RCoT_wrap, alpha=0.01, mix_modeling=gauss_mix_modeling, max.cs=4); #the F2CI algorithm; this run takes around 5 minutes
 
 > out_F2CI$orientation_rules$G
 
-> out_RF2CI=RF2CI(suffStat, indepTest=RCoT_wrap, alpha=0.01, mix_modeling=gauss_mix_modeling, max.cs=4);
+> out_RF2CI=RF2CI(suffStat, indepTest=RCoT_wrap, alpha=0.01, mix_modeling=gauss_mix_modeling, max.cs=4);  #the RF2CI algorithm; this run takes around 3 minutes
 
 > out_RF2CI$orientation_rules$G
