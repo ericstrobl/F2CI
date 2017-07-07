@@ -10,8 +10,6 @@ This is an R package implementing the F2CI and RF2CI algorithms for causal disco
 
 > install_github("ericstrobl/F2CI")
 
-> library(RCIT)
-
 > library(F2CI)
 
 # Example Run
