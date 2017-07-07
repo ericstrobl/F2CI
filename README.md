@@ -16,7 +16,10 @@ This is an R package implementing the F2CI and RF2CI algorithms for causal disco
 
 # Example Run
 
-> CMJ = instantiate_CMJ(p=20, en=2, nS=1, nL=1, nD=3);
+> CMJ = instantiate_CMJ(p=20, en=2, nS=1, nL=1, nD=3); #instantiates a Gaussian CMJ
+
+> data = generate_mix_dataset(CMJ, 1000); #samples from the Gaussian CMJ
+> suffStat = list(data=data);
 
 > out_F2CI=F2CI(suffStat, RCoT_wrap, 0.01, gauss_mix_modeling, max.cs=4);
 
